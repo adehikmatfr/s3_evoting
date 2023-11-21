@@ -271,7 +271,7 @@ $tmpp=tampil($qp);
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; BANTARA SMKN 1 KAWALI 2019 || SQUAD AWI || Mr.A</span>
+            <span>Copyright &copy;  || SQUAD AWI || Mr.A</span>
           </div>
         </div>
       </footer>
