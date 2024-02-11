@@ -50,7 +50,7 @@ if(isset($_SESSION["voute"]))
               <div class="col">
                 <div class="p-5">
                   <div class="text-center">
-                    <img src="../potos/bg.png" class="img img-fluid">
+                    <img src="../images/bg.png" class="img img-fluid">
                   </div>
                   <form class="user" method="post" action="../controller/voute.php">
                     <div class="form-group">

@@ -211,7 +211,7 @@ if(!isset($_SESSION["admin"]))
       <div class="container panel panel-default mt-2">
        <h2>Minat <?=$tm["no_kandidat"]?></h2>
        <div class="card p-2">
-       <img src="../potos/<?=$tm['img']?>" width="100px" height="100px" class="img-fluid mb-1"><br>
+       <img src="../images/<?=$tm['img']?>" width="100px" height="100px" class="img-fluid mb-1"><br>
        </div>
        <label><?=$tm["nama"]?></label><br>
        <label><?=$tm["kelas"]." ".$tm["jurusan"]?></label>

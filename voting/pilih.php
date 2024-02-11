@@ -69,7 +69,7 @@ $tm=tampil($q);
                 <div class="p-5">
                   <div class="text-center">
                   	<center><h3>NO. <?=$m["no_kandidat"]?></h3></center>
-                    <img src="../potos/<?=$m['img']?>" class="img img-fluid mt-3 mb-3">
+                    <img src="../images/<?=$m['img']?>" class="img img-fluid mt-3 mb-3">
                   </div>
                   <form class="user" method="post" action="../controller/voute.php">
                   	<center><h5><?=$m["nama"]?></h5></center>
@@ -117,16 +117,17 @@ foreach ($tmp as $t):
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Kandidat <?=$m['no_kandidat']?></h5>
+          <h5 class="modal-title" id="exampleModalLabel">Kandidat <?=$t['no_kandidat']?></h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
         <div class="modal-body">
+        <img src="../images/<?=$t['img']?>" class="img img-fluid mt-3 mb-3" style="width: 466px; height: 270px;" alt="img">
               Nama  : <?=$t['nama']?>
-          <br>Kelas : <?=$m["kelas"]?> <?=$m["jurusan"]?>
-          <br>Visi  : <p><?=$m['visi']?></p>
-          <br>Misi  : <p><?=$m['misi']?></p>
+          <br>Kelas : <?=$t["kelas"]?> <?=$t["jurusan"]?>
+          <br>Visi  : <?=$t['visi']?>
+          <br>Misi  : <?=$t['misi']?>
         </div>
         <div class="modal-footer">
         </div>

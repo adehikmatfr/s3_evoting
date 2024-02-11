@@ -1,6 +1,6 @@
 <?php
 
-function uploaded($dir='../potos/',$ky='img'){
+function uploaded($dir='../images/',$ky='img'){
   $nama=$_FILES[$ky]['name'];
   $type=$_FILES[$ky]['type'];
   $tmp=$_FILES[$ky]['tmp_name'];
